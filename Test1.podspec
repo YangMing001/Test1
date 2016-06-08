@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Test1'
-  s.version          = '0.6.0'
+  s.version          = '0.7.0'
   s.summary          = 'Test1'
 
 # This description is used to generate tags and improve search results.
@@ -30,8 +30,8 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'Test1/Classes/**/*'
-  
+s.source_files = 'Test1/Classes/**/*.{h,m}'
+
    s.resource_bundles = {
      'Test1' => ['Test1/Classes/**/*.xib']
    }
