@@ -1,17 +1,17 @@
 //
-//  Test1Helper.m
+//  YMHelper.m
 //  Test1
 //
 //  Created by YM on 16/6/8.
 //  Copyright © 2016年 YM. All rights reserved.
 //
 
-#import "Test1Helper.h"
+#import "YMHelper.h"
 
-@implementation Test1Helper
+@implementation YMHelper
 
 + (void)log{
-    NSLog(@"Pod success");
+    NSLog(@"---不容易--");
 }
 
 @end

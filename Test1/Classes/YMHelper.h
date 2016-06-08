@@ -1,5 +1,5 @@
 //
-//  Test1Helper.h
+//  YMHelper.h
 //  Test1
 //
 //  Created by YM on 16/6/8.
@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Test1Helper : NSObject
+@interface YMHelper : NSObject
 
 + (void)log;
 

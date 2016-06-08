@@ -21,8 +21,8 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		99877E8B1D07EF02006D4A4C /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 99877E891D07EF02006D4A4C /* .gitkeep */; };
-		99877E8F1D07EF33006D4A4C /* Test1Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 99877E8E1D07EF33006D4A4C /* Test1Helper.m */; };
+		99877E9D1D07F1B5006D4A4C /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 99877E9B1D07F1B5006D4A4C /* .gitkeep */; };
+		99877EA11D07F1C7006D4A4C /* YMHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 99877EA01D07F1C7006D4A4C /* YMHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,9 +58,9 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		63A9BF1AE353AD26FD24C5A0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		99877E891D07EF02006D4A4C /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		99877E8D1D07EF33006D4A4C /* Test1Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test1Helper.h; sourceTree = "<group>"; };
-		99877E8E1D07EF33006D4A4C /* Test1Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test1Helper.m; sourceTree = "<group>"; };
+		99877E9B1D07F1B5006D4A4C /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		99877E9F1D07F1C7006D4A4C /* YMHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMHelper.h; sourceTree = "<group>"; };
+		99877EA01D07F1C7006D4A4C /* YMHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMHelper.m; sourceTree = "<group>"; };
 		EF6598A1815A03687B398F67 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,7 +91,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
-				99877E881D07EF02006D4A4C /* Classes */,
+				99877E9A1D07F1B5006D4A4C /* Classes */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for Test1 */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -175,14 +175,15 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		99877E881D07EF02006D4A4C /* Classes */ = {
+		99877E9A1D07F1B5006D4A4C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				99877E891D07EF02006D4A4C /* .gitkeep */,
-				99877E8D1D07EF33006D4A4C /* Test1Helper.h */,
-				99877E8E1D07EF33006D4A4C /* Test1Helper.m */,
+				99877E9B1D07F1B5006D4A4C /* .gitkeep */,
+				99877E9F1D07F1C7006D4A4C /* YMHelper.h */,
+				99877EA01D07F1C7006D4A4C /* YMHelper.m */,
 			);
-			path = Classes;
+			name = Classes;
+			path = ../Test1/Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,7 +266,7 @@
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
-				99877E8B1D07EF02006D4A4C /* .gitkeep in Resources */,
+				99877E9D1D07F1B5006D4A4C /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,9 +286,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* YMAppDelegate.m in Sources */,
-				99877E8F1D07EF33006D4A4C /* Test1Helper.m in Sources */,
 				6003F5A7195388D20070C39A /* YMViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				99877EA11D07F1C7006D4A4C /* YMHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
