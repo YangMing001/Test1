@@ -11,7 +11,7 @@
 @implementation YMHelper
 
 + (void)log{
-    NSLog(@"---不容易--");
+    NSLog(@"---不容易士大夫士大夫撒旦法--");
 }
 
 @end
