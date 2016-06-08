@@ -21,6 +21,8 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		991DB1251D07FD940096E284 /* YMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 991DB1231D07FD940096E284 /* YMViewController.m */; };
+		991DB1261D07FD940096E284 /* YMViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 991DB1241D07FD940096E284 /* YMViewController.xib */; };
 		99877E9D1D07F1B5006D4A4C /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 99877E9B1D07F1B5006D4A4C /* .gitkeep */; };
 		99877EA11D07F1C7006D4A4C /* YMHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 99877EA01D07F1C7006D4A4C /* YMHelper.m */; };
 /* End PBXBuildFile section */
@@ -58,6 +60,9 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		63A9BF1AE353AD26FD24C5A0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		991DB1221D07FD940096E284 /* YMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMViewController.h; sourceTree = "<group>"; };
+		991DB1231D07FD940096E284 /* YMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMViewController.m; sourceTree = "<group>"; };
+		991DB1241D07FD940096E284 /* YMViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YMViewController.xib; sourceTree = "<group>"; };
 		99877E9B1D07F1B5006D4A4C /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		99877E9F1D07F1C7006D4A4C /* YMHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMHelper.h; sourceTree = "<group>"; };
 		99877EA01D07F1C7006D4A4C /* YMHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMHelper.m; sourceTree = "<group>"; };
@@ -181,6 +186,9 @@
 				99877E9B1D07F1B5006D4A4C /* .gitkeep */,
 				99877E9F1D07F1C7006D4A4C /* YMHelper.h */,
 				99877EA01D07F1C7006D4A4C /* YMHelper.m */,
+				991DB1221D07FD940096E284 /* YMViewController.h */,
+				991DB1231D07FD940096E284 /* YMViewController.m */,
+				991DB1241D07FD940096E284 /* YMViewController.xib */,
 			);
 			name = Classes;
 			path = ../Test1/Classes;
@@ -266,6 +274,7 @@
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				991DB1261D07FD940096E284 /* YMViewController.xib in Resources */,
 				99877E9D1D07F1B5006D4A4C /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				991DB1251D07FD940096E284 /* YMViewController.m in Sources */,
 				6003F59E195388D20070C39A /* YMAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* YMViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
